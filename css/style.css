@@ -513,7 +513,7 @@ html{
     border: none;
     width: 14px;
     height: 46px;
-    background: url('../img/slider/rounded_rectangle_2_copy_2_492.png');
+    background: url('../img/slider/rounded_rectangle_2_copy_2_492.png') no-repeat;
 }
 .slick-arrow.slick-prev{
     position: absolute;
@@ -523,7 +523,7 @@ html{
     border: none;
     width: 14px;
     height: 46px;
-    background: url('../img/slider/rounded_rectangle_2_copy_7_493.png')
+    background: url('../img/slider/rounded_rectangle_2_copy_7_493.png') no-repeat;
 }
 .carousel_title{
     text-align: center;
