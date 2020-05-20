@@ -1,4 +1,4 @@
-html{
+body{
     font-family: Roboto;
 }
 .container {
@@ -54,15 +54,71 @@ html{
     width: 160px;
     height: 45px;
     background-color: #ec644b;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ffffff;
     border: none;
     border-radius: 30px;
     margin: 44px 0 0 19px;
     cursor: pointer;
 }
+.right_menu .nav_btn a{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/* start popup */
+#myModal {
+    width: 298px; height: 278px;
+    margin: 0 auto;
+    padding: 18px 9px;
+    border-radius: 4px;
+    background: #f3f3f3;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+     margin: auto;
+    display: none;
+    opacity: 0;
+    z-index: 38;
+    text-align: center;
+}
+#myModal #myModal__close {
+    width: 21px; height: 21px;
+    position: absolute;
+    top: 1px;   right: 11px;
+    cursor: pointer;
+    display: block;
+    font-size: 29px;
+}
+#myOverlay {
+    z-index: 37;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    cursor :pointer;
+    display :none;
+}
+.pop_form_input form input{
+    height: 44px;
+    width: 267px;
+    border-radius:30px;
+    border: 1px solid #898989;
+    margin: 5px 0;
+    padding-left: 28px;
+}
+.pop_submit input{
+    height: 44px;
+    width: 297px;
+    margin: 20px auto 0;
+    border-radius:30px;
+    border:none;
+    background-color: #ec644b;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/* end popup */
 .header_burger{
     display: none;
 }
@@ -329,16 +385,19 @@ html{
 .price_btn{
     display: block;
     margin: 25px auto 23px;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ffffff;
     width: 160px;
     height: 45px;
     background-color: #ec644b;
     border: none;
     border-radius: 30px;  
     cursor: pointer;  
+}
+.price_btn a{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
 }
  .price .consul_title{
     margin-top: 36px;
